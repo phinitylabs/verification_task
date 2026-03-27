@@ -1,0 +1,9 @@
+
+[project]
+
+name = "stoic_gans_orchestrator"
+
+version = "1.0.0"
+
+dependencies = ["cocotb>=1.9.0", "cocotb-test>=0.2.5", "pytest>=8.0.0"]
+
