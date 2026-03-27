@@ -6,7 +6,7 @@ You are tasked with designing a **tile orchestrator** module for a neural networ
 
 **Key Files:**
 - Design file: `sources/TPU_double_buffering.sv` (implement the `orchestrator` module here)
-- Test file: `tests/test_golden_hidden_tough.py` (cocotb testbench with 65 scenarios)
+- Test file: `tests/test_golden_hidden_tough.py` (cocotb testbench)
 
 The design must pass all test scenarios, which include various timing delays, credit denials, and protocol checks. Focus on correctness, especially the atomicity requirement.
 
